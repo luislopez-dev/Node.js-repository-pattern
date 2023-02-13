@@ -1,4 +1,4 @@
-import {Billing} from "../../entity/Billing";
+import Billing from "../../entity/Billing";
 import {Collection} from "typeorm";
 
 export default interface BillingDAO {

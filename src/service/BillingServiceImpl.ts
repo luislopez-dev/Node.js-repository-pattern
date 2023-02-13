@@ -1,8 +1,8 @@
-import BillingDAO from "./interface/BillingDAO";
+import BillingService from "./interface/BillingService";
 import {Collection} from "typeorm";
 import Billing from "../entity/Billing";
 
-export default class BillingDAOImpl implements BillingDAO {
+export default class BillingServiceImpl implements BillingService {
 
     delete(id: bigint): void {
     }

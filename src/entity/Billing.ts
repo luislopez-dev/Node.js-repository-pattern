@@ -18,7 +18,6 @@ export default class Billing {
     @Column()
     private total: number;
 
-
     constructor(id: number, nit: string, taxes: number, discounts: number, total: number) {
         this.id = id;
         this.nit = nit;
